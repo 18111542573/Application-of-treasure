@@ -162,7 +162,7 @@
 		<footer>
 			<div class="container">
 				<div class="attention">
-					<p>关注我们</p>
+					<p>商务合作</p>
 					<div><img src="img/guanzhu.jpg"/></div>
 				</div>
 				<div class="attention-zhong">
@@ -211,9 +211,13 @@
 		    });
 	  	</script>
 		<script type="text/javascript">
-			$(".more").children().on("cklik",function(){
-				$(".Application-profile")
-				console.log()
+			var h = $(".Application-profile p:nth-child(3)").height()
+			console.log(h)
+			$(".more").children().on("click",function(){
+				var h = $(".Application-profile p:nth-child(3)").height()
+				console.log(h)
+				$(".Application-profile p:nth-child(3)").css("-webkit-line-clamp","initial")
+				$(".Application-profile p:nth-child(3)").css("overflow","initial")
 			})
 		</script>
 	</body>
