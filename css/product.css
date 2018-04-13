@@ -1,0 +1,365 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "microsoft yahei"!important;
+	color: #343434;
+	position: relative;
+    height: 100%;
+}
+ul li{
+	list-style-type:none;
+}
+ul, ol{
+	margin: 0;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p {
+    margin:0;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+	color: inherit;
+}
+.particulars-top p:last-of-type{
+	cursor: pointer;
+}
+.both{
+	clear: both;
+}
+.fgx{
+	border-bottom: 1px #e6e6e6 solid;
+}
+.all-nav{
+	box-shadow: 0px -17px 47px #000000;
+	height: 6.7rem;
+}
+.container{
+	padding: 0;
+	/*border: 1px red solid;*/
+	width: 81.85rem;
+}
+.logo{
+	margin-top: 1rem;
+	margin-right: 12rem;
+	width:  7.2rem;
+	height: 4.3rem;
+}
+.all-nav li{
+	float: left;
+}
+.shouye,.bazaar{
+	/*border: 1px red solid;*/
+	text-align: center;
+	height: 6.7rem;
+	width: 9.9rem;
+	font-size: 18px;
+}
+.all-nav span{
+	/*border: 1px red solid;*/
+	line-height: 6rem;
+}
+.bazaar{
+	background-color: #0081ff;
+	color: white;
+}
+.all-nav input{
+	position: relative;
+}
+.all-nav input[type=search]{
+	padding-right: 2.5rem;
+	position: relative;
+	text-indent: 1rem;
+	color: #999999;
+	font-size: 16px;
+	margin-top: 1rem;
+	margin-left: 8.9rem;
+	border-radius: 6px;
+    border: 1px solid #b3b3b3;/*必须对默认的*/
+    width: 33.7rem;
+    height: 4.5rem;
+    outline: none;
+}
+
+.all-nav input[type=search]::-webkit-search-cancel-button:after{
+    position: absolute;
+    content: '1231232';
+    left: 25%;
+    top: -12%;
+    font-size: 20px;
+    color: #fff;
+}
+.icon-sousuo{
+	font-size: 1vw;
+	color: #999999;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
+.img-left{
+	/*border: 1px red solid;*/
+	float: left;
+	margin-right: 3.4rem;
+}
+.ico-app{
+	border-radius: 50px;
+	width: 19rem;
+	height: 19rem;
+}
+.ico-particulars{
+	margin-top: 4rem;
+}
+.particulars-right span{
+	display: inline-block;
+	text-align: center;
+	font-size: 1vw;
+	margin-left: 3.7rem;
+	width: 56px;
+	height: 26px;
+	color: #959595;
+	border: 1px #959595 solid;
+	border-radius: 4px;
+	line-height: 2rem;
+	font-weight: 100;
+}
+.particulars-top h3{
+	height: 25px;
+	font-weight: 600;
+	margin-bottom: .9rem;
+}
+.particulars-top p{
+	font-size: 18px;
+}
+.particulars-top p:first-of-type{
+	height: 28px;
+	color: #8e8e93;
+}
+.particulars-top p:last-of-type{
+	color: #0081ff;
+}
+.particulars-bottom{
+	margin-top: 2rem;
+}
+.particulars-bottom-left{
+	float: left;
+}
+.particulars-bottom p{
+	margin-bottom: .5rem;
+}
+.particulars-bottom-left p:first-of-type{
+	font-size: 14px;
+	color: #8e8e93;
+	text-indent: -1rem;
+}
+.particulars-bottom-left p:last-of-type{
+	font-size: 14px;
+	color: #8e8e93;
+}
+.particulars-bottom-left i{
+	color: #ff9c28;
+}
+.star{
+	display: inline-block;
+}
+.pf{
+	display: inline;
+	color:#8e8e93;
+	font-size: 14px;
+	margin-left: 1rem;
+}
+.particulars-bottom-right{
+	float: left;
+	/*border: 1px red solid;*/
+	width: 52.9%;
+	padding: 3rem 0rem 0 8rem;
+}
+.particulars-bottom-right button{
+	border-radius: 6px;
+	background-color: #0081ff;
+	border: 0px;
+	color: white;
+	width: 113px;
+	height: 43px;
+	font-size: 1vw;
+	font-weight: 500;
+	margin-right: 3rem;
+}
+button:focus{
+	outline: none;
+}
+section h4{
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+.screenshot span{
+	font-weight: 500;
+	font-size: 14px;
+	margin-left: 2.8rem;
+}
+.icon-jiantou6{
+	margin-left: 1rem;
+}
+/*截图滑动*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 2.6rem;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-wrapper div{
+	border-radius:30px;
+	height: 41.6rem;
+}
+.swiper-wrapper img{
+	height:41.6rem ;
+	border-radius:30px;
+}
+.Application-profile h4{
+	margin-bottom: 2rem;
+}
+.Application-profile p:first-of-type{
+	text-indent: -.5rem;
+	margin-bottom: 2rem;
+}
+.Application-profile p:last-of-type{
+	width: 76rem;
+	line-height: 2rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.more{
+	text-align: right;
+	color: #0081ff;
+	margin-top: 10px;
+}
+.more span{
+	cursor: pointer;
+}
+.nav-content p:first-of-type{
+	float: left;
+}
+.nav-content p:last-of-type{
+	text-align: right;
+	color: #999999;
+}
+.message p{
+	margin-bottom: .5rem;
+}
+.like h4{
+	float: left;
+}
+.like span{
+	color: #0081FF;
+	display: block;
+	text-align: right;
+	line-height: 2rem;
+	cursor: pointer;
+}
+.all-like-img li{
+	float: left;
+	margin-left: 1.55rem;
+}
+.like img{
+	/*border: 1px red solid;*/
+	border-radius:30px ;
+	width: 148px;
+	height: 146px;
+	margin-bottom: 1rem;
+}
+.all-like-img p{
+	font-size: 13px;
+}
+.all-like-img{
+	/*border: 1px red solid;*/
+	margin-top: 1.5rem;
+	width: 103%;
+	margin-left: -1.6rem;
+}
+.attention{
+	float: left;
+}
+.attention p{
+	text-align: center;
+	margin-bottom: .5rem;
+}
+.attention img{
+	width: 7rem;
+	height: 7rem;
+}
+footer{
+	margin-top: 2.3rem;
+	height: 14rem;
+	/*border: 1px red solid;*/
+}
+footer .attention,.attention-right{
+	color: #808080;
+	margin-top: 2rem;
+}
+.attention-zhong{
+	/*border: 1px red solid;*/
+	float: left;
+	margin-left: 19.25rem;	
+	text-align: center;
+	margin-top:2rem ;
+}
+.attention-zhong div{
+	margin-bottom: 1rem;
+}
+.attention-zhong div:first-of-type{
+	margin-right: -2.3rem;
+	font-size: .9vw;
+}
+.attention-zhong img{
+	margin-right: 1rem;
+	width: 4.4rem;
+	height: 2.5rem;
+}
+.qkl2018:first-of-type{
+	margin-right: 1rem;
+}
+.qkl2018{
+	color: #999999;
+	font-size: .9vw;
+}
+.fgxx{
+	border-bottom: 1px #CCCCCC solid;
+	width: 103%;
+	margin-left:-.5rem;
+	margin-bottom: 0px!important;
+}
+.attention-right{
+	float: right;
+}
+.attention-right p{
+	text-align: center;
+	margin-bottom: .5rem;
+}
+.attention-right img{
+	width: 7rem;
+	height: 7rem;
+}
