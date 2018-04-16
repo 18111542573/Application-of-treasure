@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    li{
+        list-style: none;
+    }
+}
+a{
+    text-decoration: none;
+}
+.banner{
+    height: 1.95rem;
+    background: #dedede;
+}
+.d_2{
+    cursor: pointer;
+}
+.contain{
+    height: 4.89rem;
+    .c_l{
+        margin-top: 0.22rem;
+        margin-left: 0.94rem;
+        float: left;
+        width: 4rem;
+        height: 4.48rem;
+        .l_h_1{
+            height: 0.17rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .d_1{
+                font-size: 0.16rem;
+                height: 0.17rem;
+                line-height: 0.17rem;
+                color: #1f1f1f;
+            }
+            .d_2{
+                height: 0.17rem;
+                line-height: 0.17rem;
+                font-size: 0.09rem;
+                color: #c2c2c2;
+            }
+        }
+        .l_box_1{
+            margin-top: 0.11rem;
+            height: 1.9rem;
+           border-top: 0.01rem solid #e2e2e2;
+           ul{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               margin-top: 0.17rem;
+               li{
+                   cursor: pointer;
+                   width: 0.48rem;
+                   height: 0.71rem;
+                   display: flex;
+                   flex-direction: column;
+                   img{
+                       width: 0.48rem;
+                       height: 0.48rem;
+                   }
+                   .b_1_d1{
+                       margin-top: 0.05rem;
+                       font-size: 0.06rem;
+                       color: #acacac;
+                   }
+               }
+           }
+        }
+        .l_h_2{
+            margin-top: 0.16rem;
+            height: 0.17rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .d_1{
+                font-size: 0.16rem;
+                height: 0.17rem;
+                line-height: 0.17rem;
+                color: #1f1f1f;
+            }
+            .d_2{
+                height: 0.17rem;
+                line-height: 0.17rem;
+                font-size: 0.09rem;
+                color: #c2c2c2;
+            }
+        }
+        .l_box_2{
+            margin-top: 0.11rem;
+            height: 1.9rem;
+           border-top: 0.01rem solid #e2e2e2;
+           ul{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               margin-top: 0.17rem;
+               li{
+                   cursor: pointer;
+                   width: 0.48rem;
+                   height: 0.71rem;
+                   display: flex;
+                   flex-direction: column;
+                   img{
+                       width: 0.48rem;
+                       height: 0.48rem;
+                   }
+                   .b_1_d1{
+                       margin-top: 0.05rem;
+                       font-size: 0.06rem;
+                       color: #acacac;
+                   }
+               }
+           }
+        }
+    }
+    .c_r{
+        margin-top: 0.22rem;
+        margin-left: 0.12rem;
+        float: left;
+        width: 1.52rem;
+        height: 4.48rem;
+        .l_h_1{
+            height: 0.17rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .d_1{
+                font-size: 0.16rem;
+                height: 0.17rem;
+                line-height: 0.17rem;
+                color: #1f1f1f;
+            }
+            .d_2{
+                height: 0.17rem;
+                line-height: 0.17rem;
+                font-size: 0.09rem;
+                color: #c2c2c2;
+            }
+        }
+        .l_box_1{
+            margin-top: 0.11rem;
+            height: 1.9rem;
+            width: 1.49rem;
+           border: 0.01rem solid #e2e2e2;
+           ul{
+               margin-top: 0.17rem;
+               li{
+                   height: 0.24rem;
+                   cursor: pointer;
+                   img{
+                       float: left;
+                       margin-left:0.07rem;
+                       width: 0.24rem;
+                       height: 0.24rem;
+                   }
+                   .b_1_d1{
+                       float: left;
+                       height: 0.24rem;
+                       line-height: 0.24rem;    
+                       font-size: 0.06rem;
+                       color: #acacac;
+                       margin-left: 0.08rem;
+                   }
+                   .b_1_d2{
+                       @extend .b_1_d1;
+                       margin-left: 0.42rem;
+                   }
+               }
+           }
+        }
+        .l_h_2{
+            margin-top: 0.16rem;
+            @extend .l_h_1;
+        }
+        .l_box_2{
+            @extend .l_box_1;
+        }
+    }
+}

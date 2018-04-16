@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    li{
+        list-style: none;
+    }
+}
+a{
+    text-decoration: none;
+}
+.big_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    display: none;
+}
+.new{
+    position: absolute;
+    top: 0.54rem;
+    left: 0.94rem;
+    width: 4.12rem;
+    display: none;
+    background: #ffffff;
+    img{
+        width: 4.12rem;
+        height: 1.77rem;
+    }
+    .new_title{
+        float: left;
+        width: 4.12rem;
+        text-align: center;
+        font-size:0.16rem ;
+        color: #333333;
+        margin-top: 0.15rem;
+    }
+    .new_detail{
+        width: 4.12rem;
+        height: 0.09rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 0.11rem;
+        float: left;
+        div{
+            font-size: 0.08rem;
+            height: 0.09rem;
+            line-height: 0.09rem;
+        }
+    }
+    .new_contain{
+        float: left;
+        width: 4.12rem;
+        height:2rem;
+        border: 1px solid;
+        margin-top: 0.16rem;
+    }
+    .new_next{
+        width: 4.12rem;
+        height: 0.12rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 0.04rem;
+        float: left;
+        .new_qian{
+            height: 0.12rem;
+            font-size: 0.1rem;
+            line-height: 0.12rem;
+            color: #aeaeae;
+            margin-left: 0.1rem;
+        }
+        .new_hou{
+            height: 0.12rem;
+            font-size: 0.1rem;
+            line-height: 0.12rem;
+             color: #aeaeae;
+             margin-right: 0.1rem;
+        }
+    }
+}
+.hot_box{
+    height: 0.3rem;
+    overflow: hidden;
+    .s_1{
+        float: left;
+        width: 0.8rem;
+        height: 0.1rem;
+        margin-top: 0.05rem;
+        margin-left: 0.94rem;
+        font-size: 0.08rem;
+        color: #343434;
+    }
+}
+.hot_contain{
+    height: 4.97rem;
+    .hot_c_l{
+        width: 4.12rem;
+        height: 4.97rem;
+        float: left;
+        margin-left: 0.95rem;
+        .l_t{
+            height: 0.27rem;
+            color: #343434;
+            font-size: 0.16rem;
+        }
+        .l_box{
+            width: 4.12rem;
+            height: 4.7rem;
+            border: 1px solid;
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                li{
+                    border: 1px solid;
+                    width: 0.98rem;
+                    height: 1.5rem;
+                    img{
+                        width: 0.98rem;
+                        height: 0.98rem;
+                        float: left;    
+                    }
+                    .li_txt{
+                        float: left;
+                        width: 0.98rem;
+                        height: 0.2rem;
+                        background: #929292;
+                        .txt_l1{
+                            float: left;
+                            display: block;
+                            color: #f9f9f9;
+                            height: 0.2rem;
+                            line-height: 0.2rem;
+                            font-size: 0.08rem;
+                            margin-left: 0.05rem;
+                        }
+                        .txt_l2{
+                            float: right;
+                            margin-right: 0.05rem;
+                            display: block;
+                            height: 0.2rem;
+                            line-height: 0.2rem;
+                            color: #f9f9f9;
+                            font-size: 0.05rem;
+                        }
+                    }
+                    .li_biao{
+                        padding-top:1.2rem ;
+                        padding-left: 0.06rem;
+                        font-size: 0.1rem;
+                        color: #343434;
+                    }
+                }
+            }
+        }
+    }
+    .hot_c_r{
+        float: left;
+        margin-left: 0.15rem;
+        width: 1.38rem;
+        height: 4.97rem;
+        .r_t{
+            height: 0.16rem;
+            width: 1.38rem;
+            font-size: 0.16rem;
+            color: #2f2f2f;
+            line-height:0.16rem;
+            .t_s{
+                display: block;
+                height: 0.16rem;
+                line-height: 0.16rem;
+                float: right;
+                font-size: 0.09rem;
+                color: #808080;
+            }
+        }
+        ul{
+            width: 1.38rem;
+            border: 1px solid #e2e2e2;
+            margin-top: 0.12rem;
+            li{
+                height: 0.25rem;
+                width: 1.38rem;
+                margin-top: 0.05rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                img{
+                    width: 0.25rem;
+                    height: 0.25rem;
+                    border: 1px solid;
+                }
+                .box_s1{
+                    height: 0.25rem;
+                    line-height: 0.25rem;
+                    font-size: 0.07rem;
+                    margin-left: 0.12rem;
+                }
+                .box_s2{
+                    margin-left: 0.26rem;
+                    height: 0.25rem;
+                    line-height: 0.25rem;
+                    font-size: 0.06rem;   
+                }
+            }
+        }
+    }
+}
+.jian{
+    height: 0.67rem;
+    .u_1{
+        float: left;
+        height: 0.16rem;
+        margin-left: 3.9rem;
+        li{
+            margin-top: 0.14rem;
+            font-size: 0.08rem;
+            float: left;
+            width: 0.16rem;
+            height: 0.16rem;
+            text-align: center;
+            line-height: 0.16rem;
+            color: #71abf6;
+        }
+    }
+    .a_next{
+        margin-top: 0.18rem;
+        margin-left: 0.1rem;
+        width: 0.3rem;
+        height: 0.08rem;
+        line-height: 0.08rem;
+        font-size: 0.08rem;
+        color: #71abf6;
+        float: left;
+        position: relative;
+        img{
+            width: 0.03rem;
+            height: 0.06rem;
+            position: absolute;
+            top: 0.01rem;
+            right: 0;
+        }
+    }
+}

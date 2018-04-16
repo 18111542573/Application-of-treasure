@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.banner {
+  height: 1.95rem;
+  background: #dedede; }
+
+.banner_a {
+  display: block;
+  height: 1.95rem; }
+.banner_a img {
+  height: 1.95rem;
+  width: 100%; }
+
+.top_c {
+  height: 0.32rem;
+  border-bottom: 1px solid #d2d2d2;
+  box-shadow: 0rem 0.01rem 0.03rem #d2d2d2; }
+.top_c .a {
+  margin-top: 0.07rem;
+  float: left;
+  width: 0.79rem;
+  height: 0.2rem;
+  margin-left: 0.94rem; }
+.top_c ul {
+  margin-left: 0.11rem;
+  float: left;
+  width: 2rem;
+  height: 0.32rem; }
+.top_c ul li {
+  float: left;
+  width: 0.5rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  text-align: center;
+  font-size: 0.08rem;
+  cursor: pointer; }
+.top_c ul li a {
+  display: block;
+  width: 0.5rem;
+  height: 0.32rem; }
+.top_c .top_ibox {
+  width: 1.8rem;
+  height: 0.2rem;
+  margin-left: 0.94rem;
+  margin-top: 0.07rem;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  position: relative; }
+.top_c .top_ibox .top_down {
+  width: 0.2rem;
+  height: 0.2rem;
+  margin-top: 0.02rem; }
+.top_c .top_ibox .top_fa {
+  width: 0.1rem;
+  height: 0.1rem;
+  position: absolute;
+  right: 0.1rem;
+  top: 0.05rem; }
+.top_c .top_ibox .top_input {
+  width: 1.46rem;
+  height: 0.2rem;
+  margin-left: 0.04rem;
+  border: 1px solid #d6d6d8;
+  padding-left: 0.1rem;
+  color: #999999;
+  outline: none;
+  font-size: 0.08rem; }
+
+.li_bg {
+  background: #3a92f4;
+  color: #ffffff; }
+
+a {
+  color: #333; }
+
+.corelbg {
+  background: orange; }
+
+#bottom {
+  height: 1.56rem;
+  background: #eeeeee; }
+
+.d_2 {
+  cursor: pointer; }
+
+.contain {
+  height: 4.89rem; }
+.contain .c_l {
+  margin-top: 0.22rem;
+  margin-left: 0.94rem;
+  float: left;
+  width: 4rem;
+  height: 4.48rem; }
+.contain .c_l .l_h_1, .contain .c_l .c_r .l_h_2, .contain .c_r .c_l .l_h_2 {
+  height: 0.17rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+.contain .c_l .l_h_1 .d_1, .contain .c_l .c_r .l_h_2 .d_1, .contain .c_r .c_l .l_h_2 .d_1 {
+  font-size: 0.16rem;
+  height: 0.17rem;
+  line-height: 0.17rem;
+  color: #1f1f1f; }
+.contain .c_l .l_h_1 .d_2, .contain .c_l .c_r .l_h_2 .d_2, .contain .c_r .c_l .l_h_2 .d_2 {
+  height: 0.17rem;
+  line-height: 0.17rem;
+  font-size: 0.09rem;
+  color: #c2c2c2; }
+.contain .c_l .l_box_1 {
+  margin-top: 0.11rem;
+  height: 1.9rem;
+  border-top: 0.01rem solid #e2e2e2; }
+.contain .c_l .l_box_1 ul {
+  margin-top: 0.17rem;
+  width: 4rem;
+  height: 1.9rem; }
+.contain .c_l .l_box_1 ul .l_box_1_a {
+  margin-top: 0.15rem;
+  display: block;
+  width: 0.48rem;
+  float: left;
+  height: 0.71rem;
+  margin-right: 0.32rem; }
+.contain .c_l .l_box_1 ul .l_box_1_a li {
+  display: flex;
+  flex-direction: column; }
+.contain .c_l .l_box_1 ul .l_box_1_a li img {
+  width: 0.48rem;
+  height: 0.48rem; }
+.contain .c_l .l_box_1 ul .l_box_1_a li .b_1_d1 {
+  margin-top: 0.05rem;
+  font-size: 0.06rem;
+  color: #acacac; }
+.contain .c_l .l_h_2 {
+  margin-top: 0.16rem;
+  height: 0.17rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+.contain .c_l .l_h_2 .d_1 {
+  font-size: 0.16rem;
+  height: 0.17rem;
+  line-height: 0.17rem;
+  color: #1f1f1f; }
+.contain .c_l .l_h_2 .d_2 {
+  height: 0.17rem;
+  line-height: 0.17rem;
+  font-size: 0.09rem;
+  color: #c2c2c2; }
+.contain .c_l .l_box_2 {
+  margin-top: 0.11rem;
+  height: 1.9rem;
+  border-top: 0.01rem solid #e2e2e2; }
+.contain .c_l .l_box_2 ul {
+  margin-top: 0.17rem;
+  width: 4rem;
+  height: 1.9rem; }
+.contain .c_l .l_box_2 ul .l_box_2_a {
+  margin-top: 0.15rem;
+  display: block;
+  width: 0.48rem;
+  float: left;
+  height: 0.71rem;
+  margin-right: 0.32rem; }
+.contain .c_l .l_box_2 ul .l_box_2_a li {
+  display: flex;
+  flex-direction: column; }
+.contain .c_l .l_box_2 ul .l_box_2_a li img {
+  width: 0.48rem;
+  height: 0.48rem; }
+.contain .c_l .l_box_2 ul .l_box_2_a li .b_1_d1 {
+  margin-top: 0.05rem;
+  font-size: 0.06rem;
+  color: #acacac; }
+.contain .c_r {
+  margin-top: 0.22rem;
+  margin-left: 0.12rem;
+  float: left;
+  width: 1.52rem;
+  height: 4.48rem; }
+.contain .c_r .l_h_1, .contain .c_r .l_h_2 {
+  height: 0.17rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+.contain .c_r .l_h_1 .d_1, .contain .c_r .l_h_2 .d_1 {
+  font-size: 0.16rem;
+  height: 0.17rem;
+  line-height: 0.17rem;
+  color: #1f1f1f; }
+.contain .c_r .l_h_1 .d_2, .contain .c_r .l_h_2 .d_2 {
+  height: 0.17rem;
+  line-height: 0.17rem;
+  font-size: 0.09rem;
+  color: #c2c2c2; }
+.contain .c_r .l_box_1 {
+  margin-top: 0.11rem;
+  height: 1.9rem;
+  width: 1.49rem;
+  border: 0.01rem solid #e2e2e2; }
+.contain .c_r .l_box_1 ul {
+  margin-top: 0.17rem;
+  height: 1.75rem; }
+.contain .c_r .l_box_1 ul .r_a {
+  display: block;
+  width: 1.49rem;
+  height: 0.24rem;
+  margin-top: 0.1rem; }
+.contain .c_r .l_box_1 ul .r_a img {
+  float: left;
+  margin-left: 0.07rem;
+  width: 0.24rem;
+  height: 0.24rem; }
+.contain .c_r .l_box_1 ul .r_a .b_1_d1 {
+  float: left;
+  height: 0.24rem;
+  width: 0.6rem;
+  line-height: 0.24rem;
+  font-size: 0.06rem;
+  color: #acacac;
+  margin-left: 0.08rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+.contain .c_r .l_box_1 ul .r_a .b_1_d2 {
+  float: left;
+  height: 0.24rem;
+  width: 0.42rem;
+  line-height: 0.24rem;
+  font-size: 0.06rem;
+  color: #acacac;
+  margin-left: 0.08rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+.contain .c_r .l_h_2 {
+  margin-top: 0.16rem; }
+.contain .c_r .l_box_2 {
+  margin-top: 0.11rem;
+  height: 1.9rem;
+  width: 1.49rem;
+  border: 0.01rem solid #e2e2e2; }
+.contain .c_r .l_box_2 ul {
+  margin-top: 0.17rem;
+  height: 1.75rem; }
+.contain .c_r .l_box_2 ul .r_a {
+  display: block;
+  width: 1.49rem;
+  height: 0.24rem;
+  margin-top: 0.1rem; }
+.contain .c_r .l_box_2 ul .r_a img {
+  float: left;
+  margin-left: 0.07rem;
+  width: 0.24rem;
+  height: 0.24rem; }
+.contain .c_r .l_box_2 ul .r_a .b_1_d1 {
+  float: left;
+  height: 0.24rem;
+  width: 0.6rem;
+  line-height: 0.24rem;
+  font-size: 0.06rem;
+  color: #acacac;
+  margin-left: 0.08rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+.contain .c_r .l_box_2 ul .r_a .b_1_d2 {
+  float: left;
+  height: 0.24rem;
+  width: 0.42rem;
+  line-height: 0.24rem;
+  font-size: 0.06rem;
+  color: #acacac;
+  margin-left: 0.08rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+/*# sourceMappingURL=homePage.css.map */
