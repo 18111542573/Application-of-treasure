@@ -10,17 +10,8 @@
 		<link rel="stylesheet" type="text/css" href="css/product.css"/>
 	</head>
 	<body>
-		<!--头部导航-->
-		<header>
-			<nav class="all-nav">
-				<ul class="container">
-					<li><a href="" target="_blank"><img class="logo" src="img/logo.png"></a></li>
-					<li class="shouye"><a href=""><span>首页</span></a></li>
-					<li class="bazaar"><a href=""><span>应用市场</span></a></li>
-					<li style="position:relative"><input class="search" type="search" name="search" id="search" value="搜索app.com" onfocus="this.value='';" onblur="this.value='搜索app.com'" /><i class="iconfont icon-sousuo"></i></li>
-				</ul>
-			</nav>
-		</header>
+		<!--我是头部-->
+		<header></header>
 		<!--app图标内容-->
 		<section class="container ico-particulars">
 			<div class="img-left">
@@ -28,8 +19,10 @@
 			</div>
 			<div class="particulars-right">
 				<div class="particulars-top">
-					<h3>OKEX-数字资产交易平台<span>17+</span></h2>
+					<h3>OKEX-数字资产交易平台</h3>
+					<span>17+</span>
 					<p>分享美好生活</p>
+					
 					<p>Beijing Microlive Vision Technology Co., Ltd</p>
 				</div>
 				<div class="particulars-bottom">
@@ -158,26 +151,8 @@
 				</ul>
 			</div>
 		</section>
-		<!--我是底部哦-->
-		<footer>
-			<div class="container">
-				<div class="attention">
-					<p>商务合作</p>
-					<div><img src="img/guanzhu.jpg"/></div>
-				</div>
-				<div class="attention-zhong">
-					<div><img src="img/logo.png"/><span>区块链应用宝</span></div>
-					<div><span class="qkl2018">区块链应用宝2018</span><span class="qkl2018">区块链应用市场2018</span></div>
-					<div class="fgxx"></div>
-					<div>Copyright © 2018 - 2019 imdapp.All Rights Reserved.</div>
-					<div>世界需要你的应用</div>
-				</div>
-				<div class="attention-right">
-					<p>安卓下载</p>
-					<div><img src="img/xiazai.jpg"/></div>
-				</div>
-			</div>
-		</footer>
+		<!--我是底部-->
+		<footer></footer>
 		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
 		<!--滑动函数-->
@@ -211,11 +186,13 @@
 		    });
 	  	</script>
 		<script type="text/javascript">
+			$(document).ready(function(){
+				$("footer").load("footer.html")
+//				$("header").load("header.html")
+			})
 			var h = $(".Application-profile p:nth-child(3)").height()
-			console.log(h)
 			$(".more").children().on("click",function(){
 				var h = $(".Application-profile p:nth-child(3)").height()
-				console.log(h)
 				$(".Application-profile p:nth-child(3)").css("-webkit-line-clamp","initial")
 				$(".Application-profile p:nth-child(3)").css("overflow","initial")
 			})

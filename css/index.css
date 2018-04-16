@@ -1,0 +1,152 @@
+.container-fluid{
+	/*border: 1px red solid;*/
+	margin: 0;
+	padding: 0;
+}
+.container{
+	/*border: 1px red solid;*/
+}
+.bg{
+	background-image: url(../img/bg.png);
+	height: 32rem;
+	position: relative;
+	margin-bottom: 6.16rem;
+}
+.newest-left{
+	/*border: 1px red solid;*/
+	float: left;
+	width: 71%;
+}
+.newest-right{
+	/*border: 1px red solid;*/
+	float: left;
+	width: 28%;
+}
+.download-button{
+	position: absolute;
+	right: 24%;
+	top: 45%;
+}
+.download-button button{
+	display: block;
+	margin-bottom: 3.16rem;
+	border-radius: 6px;
+	background-color: white;
+	border: 0px;
+	width: 113px;
+	height: 42px;
+	font-size: 1vw;
+	font-weight: 500;
+	margin-right: 3rem;
+}
+ol li{
+	list-style-type: none;
+}
+.newest-top p{
+	float: left;
+	text-align: center;
+	padding: 1rem;
+	margin-right: 1rem;
+	font-weight: 600;
+	font-size: 1vw;
+	cursor: pointer;
+}
+.newest-right>p{
+	font-size: 1vw;
+	font-weight: 600;
+	padding: 1rem 0 1rem 2rem;
+}
+.newest-right ol {
+	margin-left: 2rem;
+	margin-top: 3.33rem;
+}
+.newest-right li{
+	/*border: 1px red solid;*/
+	height: 3.3rem;
+	clear: both;
+	margin-bottom: 1.5rem;
+}
+.newest-right img{
+	width: 3.66rem;
+	height: 3.58rem;
+}
+.text-left{
+	float: left;
+	margin-right: 1rem;
+}
+.text-right{
+	/*float: left;*/
+	display: none;
+	position: relative;
+	text-align: left;
+	margin-left: 1rem;
+}
+.newest-right button{
+	/*display: block;*/
+	top: 0;
+	right: -1rem;
+	position: absolute;
+	border: 1px #CCCCCC solid;
+	background-color: white;
+	border-radius: 4px;
+	width: 64px;
+	height: 27px;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}
+.xhx{
+	border-bottom: 4px #0081ff solid;
+}
+.newest-bottom{
+	margin-left: -3.91rem;
+}
+.newest-bottom li{
+	/*border: 1px red solid;*/
+	float: left;
+	text-align: center;
+	margin-top: 3.3rem;
+	line-height: 2rem;
+	font-size: 14px;
+	margin-left: 3.91rem;
+}
+.newest-bottom img{
+	margin-bottom: 1rem;
+}
+.newest-bottom button{
+	display: block;
+	border-radius: 4px;
+	background-color: white;
+	border: 1px #CCCCCC solid;
+	width: 75px;
+	height: 31px;
+	font-size: .8vw;
+	font-weight: 500;
+	margin: 1rem auto 0;
+}
+.star .iconfont{
+	color: #FF9C28;
+}
+.newest-right span{
+	font-weight: 100;
+	margin-right: 1rem;
+}
+.text-name{
+	font-family: "AdobeHeitiStd-Regular";
+	font-size: 14px;
+	color: #333333;
+	line-height: 3rem;
+	
+}
+.text-xz{
+	margin-left: 3.7rem;
+	color: #808080;
+}
+.newest-bottom p{
+	width: 9rem;
+	overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.yc{
+	display: none;
+}

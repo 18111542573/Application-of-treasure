@@ -25,6 +25,23 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 	color: inherit;
 }
+/*搜索框*/
+.search-frame{
+	/*border: 1px red solid;*/
+	text-indent: 1rem;
+	display: none;
+	position: absolute;
+	top:5rem;
+	left: 9rem;
+	width: 79%;
+	background-color: white;
+	border-radius: 4px;
+	z-index: 99;
+}
+.search-frame li{
+	clear: both;
+	line-height: 2rem;
+}
 .particulars-top p:last-of-type{
 	cursor: pointer;
 }
@@ -41,7 +58,7 @@ a:hover, a:visited, a:link, a:active{
 .container{
 	padding: 0;
 	/*border: 1px red solid;*/
-	width: 81.85rem;
+	width: 89.85rem;
 }
 .logo{
 	margin-top: 1rem;
@@ -63,9 +80,12 @@ a:hover, a:visited, a:link, a:active{
 	/*border: 1px red solid;*/
 	line-height: 6rem;
 }
-.bazaar{
+.act{
 	background-color: #0081ff;
 	color: white;
+}
+.tz{
+	cursor: pointer;
 }
 .all-nav input{
 	position: relative;
@@ -74,14 +94,14 @@ a:hover, a:visited, a:link, a:active{
 	padding-right: 2.5rem;
 	position: relative;
 	text-indent: 1rem;
-	color: #999999;
+	/*color: #999999;*/
 	font-size: 16px;
 	margin-top: 1rem;
 	margin-left: 8.9rem;
 	border-radius: 6px;
     border: 1px solid #b3b3b3;/*必须对默认的*/
     width: 33.7rem;
-    height: 4.5rem;
+    height: 4rem;
     outline: none;
 }
 
@@ -117,7 +137,7 @@ a:hover, a:visited, a:link, a:active{
 	display: inline-block;
 	text-align: center;
 	font-size: 1vw;
-	margin-left: 3.7rem;
+	margin-left: 2rem;
 	width: 56px;
 	height: 26px;
 	color: #959595;
@@ -125,11 +145,18 @@ a:hover, a:visited, a:link, a:active{
 	border-radius: 4px;
 	line-height: 2rem;
 	font-weight: 100;
+	margin-bottom: 2rem;
 }
 .particulars-top h3{
-	height: 25px;
+	/*border: 1px red solid;*/
+	float: left;
+	height: 3rem;
 	font-weight: 600;
 	margin-bottom: .9rem;
+	width: 26%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .particulars-top p{
 	font-size: 18px;
@@ -296,7 +323,12 @@ section h4{
 	margin-bottom: 1rem;
 }
 .all-like-img p{
+	text-align: center;
 	font-size: 13px;
+	width: 12rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .all-like-img{
 	/*border: 1px red solid;*/
@@ -316,8 +348,9 @@ section h4{
 	height: 7rem;
 }
 footer{
-	margin-top: 2.3rem;
+	margin-top: 7rem;
 	height: 14rem;
+	background-color: #F2F2F2;
 	/*border: 1px red solid;*/
 }
 footer .attention,.attention-right{
@@ -366,4 +399,8 @@ footer .attention,.attention-right{
 .attention-right img{
 	width: 7rem;
 	height: 7rem;
+}
+.xy{
+	color: #999999;
+	margin-top: 3rem;
 }
